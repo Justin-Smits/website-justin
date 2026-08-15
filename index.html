@@ -1700,7 +1700,7 @@ const T = {
   }
 };
 
-let currentLang = 'en';
+let currentLang = 'nl';
 
 function changeLanguage(lang) {
   currentLang = lang;
@@ -1721,8 +1721,7 @@ function changeLanguage(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const bl = (navigator.language || 'en').substring(0, 2);
-  changeLanguage(['nl', 'en', 'es'].includes(bl) ? bl : 'en');
+  changeLanguage('nl');
 });
 </script>
 </body>
