@@ -206,12 +206,20 @@ nav {
 }
 .lang-switcher button {
   background: transparent; border: none; cursor: pointer;
-  font-size: 1.1rem; width: 30px; height: 30px; border-radius: 50%;
+  width: 38px; height: 30px; border-radius: 7px; padding: 0;
   display: flex; align-items: center; justify-content: center;
-  transition: .2s; opacity: .35;
+  transition: background .2s, opacity .2s, transform .2s, box-shadow .2s;
+  opacity: .48;
 }
-.lang-switcher button.active { background: white; opacity: 1; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
-.lang-switcher button:hover { opacity: .7; }
+.lang-switcher button.active {
+  background: white; opacity: 1; box-shadow: 0 1px 5px rgba(0,0,0,.12);
+}
+.lang-switcher button:hover { opacity: 1; transform: translateY(-1px); }
+.lang-switcher button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.flag-icon {
+  width: 24px; height: 16px; display: block; flex: 0 0 auto;
+  border-radius: 2px; overflow: hidden; box-shadow: 0 0 0 1px rgba(0,0,0,.10);
+}
 
 /* BUTTONS */
 .btn {
@@ -951,9 +959,28 @@ footer {
     </ul>
     <div class="header-right">
       <div class="lang-switcher">
-        <button onclick="changeLanguage('nl')" id="btn-nl" class="active" title="Nederlands">🇳🇱</button>
-        <button onclick="changeLanguage('en')" id="btn-en" title="English">🇬🇧</button>
-        <button onclick="changeLanguage('es')" id="btn-es" title="Español">🇪🇸</button>
+        <button onclick="changeLanguage('nl')" id="btn-nl" class="active" title="Nederlands" aria-label="Nederlands">
+          <svg class="flag-icon" viewBox="0 0 3 2" aria-hidden="true" focusable="false">
+            <rect width="3" height="2" fill="#21468B"/>
+            <rect width="3" height="1.333333" y="0" fill="#FFFFFF"/>
+            <rect width="3" height="0.666667" y="0" fill="#AE1C28"/>
+          </svg>
+        </button>
+        <button onclick="changeLanguage('en')" id="btn-en" title="English" aria-label="English">
+          <svg class="flag-icon" viewBox="0 0 60 30" aria-hidden="true" focusable="false">
+            <rect width="60" height="30" rx="2" fill="#012169"/>
+            <path d="M0 0 L60 30 M60 0 L0 30" stroke="#FFFFFF" stroke-width="6"/>
+            <path d="M0 0 L60 30 M60 0 L0 30" stroke="#C8102E" stroke-width="2.5"/>
+            <path d="M30 0 V30 M0 15 H60" stroke="#FFFFFF" stroke-width="10"/>
+            <path d="M30 0 V30 M0 15 H60" stroke="#C8102E" stroke-width="6"/>
+          </svg>
+        </button>
+        <button onclick="changeLanguage('es')" id="btn-es" title="Español" aria-label="Español">
+          <svg class="flag-icon" viewBox="0 0 3 2" aria-hidden="true" focusable="false">
+            <rect width="3" height="2" fill="#AA151B"/>
+            <rect width="3" height="1" y="0.5" fill="#F1BF00"/>
+          </svg>
+        </button>
       </div>
       <a href="#" class="btn btn-whatsapp btn-sm wa-link" target="_blank" rel="noopener" data-i18n="btn-cta">Start via WhatsApp</a>
     </div>
