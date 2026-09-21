@@ -1,9 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.smitsdigital.com/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://www.smitsdigital.com/website-laten-maken.html</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/procesautomatisering.html</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/en/</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/en/web-design.html</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/en/process-automation.html</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/es/</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/es/diseno-web.html</loc>
+  </url>
+  <url>
+    <loc>https://www.smitsdigital.com/es/automatizacion.html</loc>
+  </url>
+<url><loc>https://www.smitsdigital.com/power-apps.html</loc></url><url><loc>https://www.smitsdigital.com/en/power-apps.html</loc></url><url><loc>https://www.smitsdigital.com/es/power-apps.html</loc></url><url><loc>https://www.smitsdigital.com/power-automate.html</loc></url><url><loc>https://www.smitsdigital.com/en/power-automate.html</loc></url><url><loc>https://www.smitsdigital.com/es/power-automate.html</loc></url><url><loc>https://www.smitsdigital.com/copilot-studio.html</loc></url><url><loc>https://www.smitsdigital.com/en/copilot-studio.html</loc></url><url><loc>https://www.smitsdigital.com/es/copilot-studio.html</loc></url><url><loc>https://www.smitsdigital.com/power-bi.html</loc></url><url><loc>https://www.smitsdigital.com/en/power-bi.html</loc></url><url><loc>https://www.smitsdigital.com/es/power-bi.html</loc></url><url><loc>https://www.smitsdigital.com/dataverse.html</loc></url><url><loc>https://www.smitsdigital.com/en/dataverse.html</loc></url><url><loc>https://www.smitsdigital.com/es/dataverse.html</loc></url></urlset>
