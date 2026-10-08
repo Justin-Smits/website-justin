@@ -1,0 +1,8 @@
+Herstelde download - 8 oktober 2026
+
+Deze zip gebruikt het standaard ZIP-formaat zonder compressie of ZIP64.
+De website is inhoudelijk ongewijzigd. Drie niet-gebruikte dubbele
+portretbestanden zijn weggelaten om de download kleiner te maken.
+De gebruikte portretfoto, blogillustratie, overige media en video zijn aanwezig.
+
+Begin met START-HIER.md.

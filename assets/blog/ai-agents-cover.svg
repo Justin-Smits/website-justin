@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="g"><stop stop-color="#253b85"/><stop offset="1" stop-color="#111427"/></radialGradient><pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" opacity=".13"/></pattern><linearGradient id="b" x2="1" y2="1"><stop stop-color="#4f6fff"/><stop offset="1" stop-color="#233fde"/></linearGradient></defs>
+<rect width="1200" height="630" fill="#111427"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)"/>
+<circle cx="805" cy="311" r="214" fill="none" stroke="#6879b7" opacity=".3"/><circle cx="805" cy="311" r="153" fill="none" stroke="#6879b7" opacity=".24" stroke-dasharray="5 9"/>
+<path d="M605 235h87v80m218 0h83v112M804 230V155" fill="none" stroke="#8095ff" stroke-width="2"/>
+<rect x="691" y="228" width="225" height="174" rx="40" fill="url(#b)"/>
+<rect x="723" y="281" width="160" height="70" rx="35" fill="#111427"/><circle cx="767" cy="316" r="12" fill="#d9ff78"/><circle cx="840" cy="316" r="12" fill="#d9ff78"/><path d="M790 254h28" stroke="#d9ff78" stroke-width="7" stroke-linecap="round"/>
+<g font-family="Arial,Helvetica,sans-serif"><rect x="535" y="141" width="171" height="95" rx="18" fill="#222b48" stroke="#435071"/><rect x="555" y="161" width="34" height="34" rx="9" fill="#d9ff78"/><path d="M565 170h15m-15 8h15m-15 8h9" stroke="#111427" stroke-width="2"/><text x="554" y="216" fill="#e5e9ff" font-size="15">Jouw kennis</text>
+<rect x="920" y="419" width="171" height="95" rx="18" fill="#222b48" stroke="#435071"/><circle cx="958" cy="453" r="16" fill="#d9ff78"/><path d="m951 453 5 5 9-11" stroke="#111427" stroke-width="2.5" fill="none"/><text x="940" y="495" fill="#e5e9ff" font-size="15">De juiste actie</text>
+<rect x="733" y="100" width="145" height="53" rx="26" fill="#d9ff78"/><circle cx="757" cy="126" r="5" fill="#111427"/><text x="773" y="132" fill="#111427" font-size="15" font-weight="700">AI AGENT</text>
+<rect x="70" y="79" width="200" height="33" rx="16" fill="#d9ff78"/><text x="89" y="101" fill="#111427" font-size="13" font-weight="700" letter-spacing="2">SMITS DIGITAL / BLOG</text>
+<text x="70" y="259" fill="white" font-size="69" font-weight="700" letter-spacing="-3">Van vraag</text><text x="70" y="337" fill="white" font-size="69" font-weight="700" letter-spacing="-3">naar actie.</text><text x="73" y="393" fill="#b4bddb" font-size="22">Ontdek wat AI-agents kunnen doen.</text>
+<path d="M73 522h48m-13-13 13 13-13 13" stroke="#d9ff78" fill="none" stroke-width="2"/><text x="138" y="529" fill="#e5e9ff" font-size="16">Kennis. Context. Actie.</text>
+<text x="1006" y="588" fill="#96a4ca" font-size="13">smitsdigital.com</text></g></svg>
